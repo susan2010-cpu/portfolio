@@ -137,6 +137,7 @@ nav .navlinks li a{
     border: 2px solid #e5e5e5;
     box-shadow: 0 10px 10px -8px rgba(0 0 0 /78%);
 }
-.btn .active{
+.btn.active{
     border-color: #007ced;
 }
+/*responsive design and display navbar for small screens*/

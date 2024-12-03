@@ -141,3 +141,41 @@ nav .navlinks li a{
     border-color: #007ced;
 }
 /*responsive design and display navbar for small screens*/
+@media(max-width:930px)
+{
+    nav .togglebtn{
+        display: initial;
+    }
+    .clicks{
+        top: 45px;
+    }
+    .clicks span{
+        position: absolute;
+        margin-top: 12px;
+    }
+    .click span:first-child{
+        transform: rotate(-40deg);
+    }
+    .clicks span:nth-child(2)
+    {
+        opacity: 0;
+        margin: 0;
+    };
+    .clicks span:last-child{
+        transform:rotate(45deg) ;
+        top:0 ;
+    }
+    nav .navlinks{
+        position: absolute;
+        top: 110px;
+        right: -100%;
+        bottom: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: #222;
+        z-index: 3;
+        box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+        padding: 25px 0px;
+    }
+}

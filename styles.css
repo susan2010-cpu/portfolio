@@ -148,7 +148,7 @@ nav .navlinks li a{
 }
 .hero-text .social i:hover{
     color: #007ced;
-    transition: rotate(360deg);
+    transform: rotate(360deg);
 }
 /*responsive design and display navbar for small screens*/
 @media(max-width:930px)
@@ -157,7 +157,7 @@ nav .navlinks li a{
         display: initial;
     }
     /*for toggle button**/
-    .click{
+    .clicks{
         top: 45px;
     }
     .clicks span{

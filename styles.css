@@ -157,7 +157,7 @@ nav .navlinks li a{
         display: initial;
     }
     /*for toggle button**/
-    .clicks{
+    .click{
         top: 45px;
     }
     .clicks span{
